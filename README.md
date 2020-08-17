@@ -3,6 +3,14 @@ This is the optional content pack for the Attack on Teufort gamemode. The instal
 
 ### Installation
 ---
+
+#### Tutorial: How to find your `tf/custom` folder
+If you already know how to do this, skip ahead.
+1. Go to your Steam library and right click on Team Fortress 2.
+2. Click properties and a small window will appear.
+3. Go to the `Local Files` tab.
+4. Click `Browse Local Files`.
+
 #### Automatic (Recommended)
 If you would like an easy one click installation process, connect to our content distributor server (IP: **download.titan.tf:11111**). To connect to a TF2 server via the IP address, type `connect download.titan.tf:11111` into your Team Fortress 2 developer console.
 
@@ -13,7 +21,8 @@ If you would like an easy one click installation process, connect to our content
 4. You will see 3 tabs (GitHub.com, GitHub Enterprise Server and URL). Click on `URL`.
 5. Enter `AttackOnTeufort/AOT-DLC` under the first "Repository URL or GitHub username and repository" entry.
 6. Find your tf/custom folder location and place it in the second entry below. For example, the standard Team Fortress 2 installation on a 64 bit OS under the C drive looks like this: `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom`
-7. Click on `Clone` and the content will start downloading.
+7. Make sure the entry ends with a new folder name such as `AOT DLC`. For example, `C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom\AOT DLC` so that it will install into a new folder within tf/custom. Mods will not work when they are solely placed into the tf/custom folder!
+8. Click on `Clone` and the content will start downloading.
 
 #### Manual via GitHub #2
 1. Click [here](https://github.com/AttackOnTeufort/AOT-DLC/archive/master.zip) to download the whole pack from this repository.
